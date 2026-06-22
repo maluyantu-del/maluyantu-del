@@ -17,6 +17,9 @@
 - **[Jump Trading / Jump Crypto 深度机构研究报告](https://github.com/maluyantu-del/jump-trading-research)**
   一份完全基于公开信息的独立研究报告：拆解 Jump 的"研究—基础设施—执行—风控—资本"一体化业务模式、加密做市与微观结构布局，以及监管与诉讼带来的尾部风险。
 
+- **[加密"永续 vs 现货"基差研究 + 资金费捕捉回测](https://github.com/maluyantu-del/crypto-basis-arb)**
+  用公开免费数据（币安 / CCXT）从零搭建：测算 BTC 永续与现货的基差结构，对最朴素的"吃资金费"市场中性策略做**扣费回测**，得到一个诚实的负面结论（低费率环境下扣费即亏），附完整可复现代码与图表。
+
 ## 🛠️ 常用工具
 
 `Python` · `pandas` · `NumPy` · 数据清洗与统计分析 · 金融时间序列
