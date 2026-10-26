@@ -14,6 +14,18 @@
 
 ## 📌 精选项目
 
+- **[AShare Forge：A 股截面因子研究平台](https://github.com/maluyantu-del/ashare-forge)**
+  只用公开免费数据（baostock）搭建的本地因子研究流水线：T+1 可交易回测（涨跌停、停牌、退市清算、现金账户）、零假设校准、分层门槛、泄漏检测与带代码指纹的台账，153 项测试。十几个因子全部未过门槛，负结果照实记录，开发中踩过并修掉的偏差逐条列在 README 里。
+
+- **[币安订单簿长跑记录器](https://github.com/maluyantu-del/binance-lob-recorder)**
+  7×24 小时采集 BTC / ETH 前 10 档订单簿，靠更新编号首尾相接让数据"自证无漏"，每 10 分钟用独立快照逐档比对，27 项离线测试，附一小时真实样例数据。
+
+- **[WTA 红土赛季价值投注模型](https://github.com/maluyantu-del/wta-clay-value-betting)**
+  LightGBM 胜率模型 + 独立校准集的等渗校准 + 分数凯利回测，五项泄漏审计全部通过、结果可逐字节复现。2022–2024 测试集每注 +4.94%，但重抽样 95% 区间跨过 0，统计上不显著，README 如实写明。
+
+- **[Avellaneda–Stoikov 做市报价模型](https://github.com/maluyantu-del/crypto-mm-avellaneda-stoikov)**
+  接入 OKX 实时订单簿的入门实现，比较模型报价与市场价差、库存对储备价的影响；README 记录了参数量纲不一致的问题与离线复算结果。
+
 - **[Jump Trading / Jump Crypto 深度机构研究报告](https://github.com/maluyantu-del/jump-trading-research)**
   一份完全基于公开信息的独立研究报告：拆解 Jump 的"研究—基础设施—执行—风控—资本"一体化业务模式、加密做市与微观结构布局，以及监管与诉讼带来的尾部风险。
 
@@ -22,7 +34,7 @@
 
 ## 🛠️ 常用工具
 
-`Python` · `pandas` · `NumPy` · 数据清洗与统计分析 · 金融时间序列
+`Python` · `pandas` · `NumPy` · `LightGBM` · `scikit-learn` · `SQLite` · `pytest` · 数据清洗与统计分析 · 金融时间序列
 
 ## 📫 联系我
 
